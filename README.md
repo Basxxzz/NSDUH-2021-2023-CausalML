@@ -141,7 +141,7 @@ NSDUH-2021-2023-CausalML/
 │ └── subgroup_ate_table.csv
 │
 └── docs/
-│ ├── NSDUH_CausalML_WorkingPaper.pdf
+│ └── NSDUH_CausalML_WorkingPaper.pdf
 
 ---
 # 6. Quick Start 
