@@ -128,6 +128,15 @@ NSDUH-2021-2023-CausalML/
 │ ├── fairness_plot.png
 │ └── ate_compare_any_canna.png
 │
+├── results/
+│ ├── analysis_dfs.pkl
+│ ├── ate_table_B_weighted_logit.csv
+│ ├── ate_table_DML.csv
+│ └── fairness_table_boot.csv
+│ └── fairness_table.csv
+│ └── nsduh_analysis.csv
+│ └── subgroup_ate_table.csv
+│
 └── docs/
 └── NSDUH_CausalML_WorkingPaper.pdf
 
