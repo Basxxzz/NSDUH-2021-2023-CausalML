@@ -198,6 +198,11 @@ notebook notebooks/01_demo_pipeline.ipynb
 #### Fairness Metrics by Group
 <img src="figures/fairness_plot.png" width="450"/>
 
+### Working Paper
+
+A PDF draft of the working paper is available at:
+
+📄 [`docs/NSDUH_CausalML_WorkingPaper.pdf`](docs/NSDUH_CausalML_WorkingPaper.pdf)
 
 ---
 
