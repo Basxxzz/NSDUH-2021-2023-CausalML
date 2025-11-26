@@ -126,7 +126,7 @@ NSDUH-2021-2023-CausalML/
 │ ├── ate_result.png
 │ ├── cate_heatmap.png
 │ ├── fairness_plot.png
-│ └── predicted_probs.png
+│ └── ate_compare_any_canna.png
 │
 └── docs/
 └── NSDUH_CausalML_WorkingPaper.pdf
