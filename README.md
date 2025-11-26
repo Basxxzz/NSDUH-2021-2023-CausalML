@@ -14,6 +14,9 @@ This repository contains the full reproducible pipeline for my ongoing research 
 > Substance Use and Major Depressive Episode among Reproductive-Age Women
 > (NSDUH 2021–2023)**
 
+For a quick tour, see the demo notebook:
+[`notebooks/01_demo_pipeline.ipynb`](notebooks/01_demo_pipeline.ipynb).
+
 This project is the core research component of my PhD applications (CS / Data Science / AI / Biostatistics/ Computaional Social Science).
 
 It is designed to demonstrate: 
@@ -148,6 +151,17 @@ git clone https://github.com/basxxzz/NSDUH-2021-2023-CausalML.git
 
 ### Install dependencies 
 pip install -r requirements.txt 
+
+### Demo Notebook (recommended entry point)
+
+- **End-to-end pipeline**: [`notebooks/01_demo_pipeline.ipynb`](notebooks/01_demo_pipeline.ipynb)
+
+  This notebook:
+  - Runs the **A + B + C + D** pipeline on NSDUH 2021–2023
+  - Calls the modular scripts in `src/`
+  - Produces key outputs in `results/`
+  - Saves paper-ready figures to `figures/` (ATE, CATE heatmap, fairness plots)
+
 
 ### Run the pipeline 
 python src/01_data_cleaning.py 
