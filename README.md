@@ -47,6 +47,8 @@ This project uses **survey-weighted causal inference + modern causal ML** to stu
 # 3. Data
 
 **Dataset:** National Survey on Drug Use and Health (NSDUH), 2021–2023 public-use files
+Raw NSDUH microdata are not included in this repository due to licensing.
+Interested readers can request the 2021–2023 public-use files from SAMHSA and place the pooled .dta file at the project root as NSDUH_2021_2023.dta.
 **Population:** Women aged **18–49**, including pregnant women 
 **N** ≈ varies by year, pooled as harmonized dataset 
 
@@ -164,11 +166,11 @@ pip install -r requirements.txt
 
 
 ### Run the pipeline 
-python src/01_data_cleaning.py 
-python src/02_weighted_glm.py 
-python src/03_dml_ate.py 
-python src/04_causal_forest_cate.py 
-python src/05_fairness_evaluation.py 
+python src/01_data_cleaning.py
+python src/02_weighted_glm.py
+python src/03_dml_ate.py
+python src/04_causal_forest_cate.py
+python src/05_fairness_evaluation.py
 
 ### Open the demo 
 notebook notebooks/01_demo_pipeline.ipynb
@@ -202,7 +204,10 @@ notebook notebooks/01_demo_pipeline.ipynb
 
 A PDF draft of the working paper is available at:
 
-📄 [`docs/NSDUH_CausalML_WorkingPaper.pdf`](docs/NSDUH_CausalML_WorkingPaper.pdf)
+[`docs/NSDUH_CausalML_WorkingPaper.pdf`](docs/NSDUH_CausalML_WorkingPaper.pdf)
+
+This is an unpublished working draft prepared as part of an independent research project. 
+Please do not circulate without permission.
 
 ---
 
