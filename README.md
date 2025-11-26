@@ -184,6 +184,21 @@ notebook notebooks/01_demo_pipeline.ipynb
 - Publication-ready figures (stored in /figures)
 - A 5–6 page working paper PDF (stored in /docs)
 
+### Key Figures(Figures preview)
+
+#### ATE (DML)
+<img src="figures/ate_result.png" width="450"/>
+
+#### GLM vs DML (ANY_CANNA_EVER)
+<img src="figures/ate_compare_any_canna.png" width="450"/>
+
+#### Subgroup CATE Heatmap
+<img src="figures/cate_heatmap.png" width="450"/>
+
+#### Fairness Metrics by Group
+<img src="figures/fairness_plot.png" width="450"/>
+
+
 ---
 
 # 8. Research Impact
